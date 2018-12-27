@@ -1,0 +1,272 @@
+2018/12/20 09:46:04 [error] 6#6: *72 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 10. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 10. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/user HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2"
+2018/12/20 09:46:12 [error] 6#6: *72 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 10. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 10. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/user HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2"
+2018/12/21 08:40:27 [error] 6#6: *65 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/R" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:40:27 [error] 6#6: *65 FastCGI sent in stderr: "esponse.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:46:38 [error] 6#6: *68 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/R" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:46:38 [error] 6#6: *68 FastCGI sent in stderr: "esponse.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:47:14 [error] 6#6: *71 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/R" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:47:14 [error] 6#6: *71 FastCGI sent in stderr: "esponse.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:51:27 [error] 6#6: *83 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:52:02 [error] 6#6: *86 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:57:54 [error] 6#6: *89 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/R" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:57:54 [error] 6#6: *89 FastCGI sent in stderr: "esponse.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 08:58:47 [error] 6#6: *92 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 09:12:32 [error] 6#6: *95 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Invalid argument supplied for foreach() in /code/backend/views/quanli/index.php:4
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/base/View.php(257): yii\web\View->renderPhpFile()
+#1 /code/vendor/yiisoft/yii2/base/View.php(156): yii\web\View->renderFile()
+#2 /code/vendor/yiisoft/yii2/base/Controller.php(384): yii\web\View->render()
+#3 /" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 09:12:37 [error] 6#6: *95 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 13. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Invalid argument supplied for foreach() in /code/backend/views/quanli/index.php:4
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/base/View.php(257): yii\web\View->renderPhpFile()
+#1 /code/vendor/yiisoft/yii2/base/View.php(156): yii\web\View->renderFile()
+#2 /code/vendor/yiisoft/yii2/base/Controller.php(384): yii\web\View->render()
+#3 /" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 09:25:45 [error] 6#6: *111 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 15. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 15. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 09:26:24 [error] 6#6: *114 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 15. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 15. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/21 09:26:55 [error] 6#6: *117 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 15. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/QuanliController.php on line 15. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Re" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "GET /index.php?r=quanli/admin HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "backend.yii2"
+2018/12/25 04:32:58 [error] 6#6: *110 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/models/User.php on line 90. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: count(): Parameter must be an array or an object that implements Countable in /code/backend/models/User.php:91
+Stack trace:
+#0 /code/backend/controllers/LoginController.php(16): backend\models\User->Login()
+#1 /code/vendor/yiisoft/yii2/base/InlineAction.php(57): backend\controllers\LoginController->actionIndex()
+#2 /code/vendor/yiisoft/yii2/base/I" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "POST /index.php?r=login%2Findex HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2", referrer: "http://backend.yii2/index.php?r=login%2Findex"
+2018/12/25 04:35:14 [error] 6#6: *116 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/models/User.php on line 90. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: count(): Parameter must be an array or an object that implements Countable in /code/backend/models/User.php:91
+Stack trace:
+#0 /code/backend/controllers/LoginController.php(16): backend\models\User->Login()
+#1 /code/vendor/yiisoft/yii2/base/InlineAction.php(57): backend\controllers\LoginController->actionIndex()
+#2 /code/vendor/yiisoft/yii2/base/I" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "POST /index.php?r=login%2Findex HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2", referrer: "http://backend.yii2/index.php?r=login%2Findex"
+2018/12/25 04:38:41 [error] 6#6: *119 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/models/User.php on line 91. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: count(): Parameter must be an array or an object that implements Countable in /code/backend/models/User.php:92
+Stack trace:
+#0 /code/backend/controllers/LoginController.php(16): backend\models\User->Login()
+#1 /code/vendor/yiisoft/yii2/base/InlineAction.php(57): backend\controllers\LoginController->actionIndex()
+#2 /code/vendor/yiisoft/yii2/base/I" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "POST /index.php?r=login%2Findex HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2", referrer: "http://backend.yii2/index.php?r=login%2Findex"
+2018/12/25 04:39:20 [error] 6#6: *129 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/models/User.php on line 91. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: count(): Parameter must be an array or an object that implements Countable in /code/backend/models/User.php:92
+Stack trace:
+#0 /code/backend/controllers/LoginController.php(16): backend\models\User->Login()
+#1 /code/vendor/yiisoft/yii2/base/InlineAction.php(57): backend\controllers\LoginController->actionIndex()
+#2 /code/vendor/yiisoft/yii2/base/I" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "POST /index.php?r=login%2Findex HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2", referrer: "http://backend.yii2/index.php?r=login%2Findex"
+2018/12/25 04:42:06 [error] 6#6: *137 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/LoginController.php on line 17. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/LoginController.php on line 17. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Resp" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "POST /index.php?r=login%2Findex HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2", referrer: "http://backend.yii2/index.php?r=login%2Findex"
+2018/12/25 04:42:24 [error] 6#6: *140 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/LoginController.php on line 17. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /code/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /code/backend/controllers/LoginController.php on line 17. in /code/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /code/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /code/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Resp" while reading upstream, client: 192.168.33.1, server: backend.yii2, request: "POST /index.php?r=login%2Findex HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "backend.yii2", referrer: "http://backend.yii2/index.php?r=login%2Findex"
